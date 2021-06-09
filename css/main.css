@@ -34,6 +34,7 @@ body{
   text-decoration: none;
 }
 
+
 .header-link{
   position: relative;
   z-index: 1;
@@ -150,7 +151,6 @@ a{
   z-index: -10;
 }
 .section2-inner h2{
-  font-style: normal;
   font-weight: 100;
   font-size: 40px;
   line-height: 64px;
@@ -158,13 +158,26 @@ a{
   color: #2D314D;
 }
 
-.section2 p{
-  padding-bottom:72px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+.section2-inner{
+  padding-bottom: 72px;
+}
+
+.section2-inner-block{
+  padding-bottom: 90px;
+}
+
+.section2 h2{
+  font-weight: 100;
+  font-size: 24px;
   line-height: 28px;
-  letter-spacing: -0.28125px;
+  letter-spacing: -0.4px;
+  color: #2D314D;
+}
+
+.section2 p{
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
   color: #9597A5;
 }
 .section2-inner-block2{
@@ -175,16 +188,21 @@ a{
   padding: 0;
 }
 
+.section3{
+  background-color: #F2F2F2;
+}
+
 .section3-content{
   padding-top: 80px;
   font-weight: 100;
   font-size: 40px;
   line-height: 64px;
-  letter-spacing: -0.714286px;
+  letter-spacing: -0.7px;
   color: #2D314D;
 }
 
 .section3-picture{
+  padding-bottom: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -197,6 +215,9 @@ a{
   color: #F2F2F2;
 }
 
+.fon123{
+  background-color: #fff;
+}
 
 .item span{
   font-size: 10px;
@@ -225,8 +246,6 @@ a{
 
 footer{
   background-color:#2D314D;
-  padding-top: 48px;
-  padding-bottom: 48px;
 }
 
 .footer-li{
@@ -249,7 +268,7 @@ li{
 }
 
 .footer-ul{
-  padding: 57px 0 0 0 ;
+  padding: 35px 0;
   display: flex;
 }
 
@@ -260,15 +279,41 @@ li{
   align-items: center;
 }
 
+.footer-img {
+  padding-top: 48px;
+}
+
+
+
+
+.footer-ul2{
+  padding: 0;
+  margin: 0;
+
+}
+
+
 
 .footer-li2{
   padding-bottom: 8px;
   font-size: 15px;
   line-height: 26px;
-  letter-spacing: -0.234375px;
+  letter-spacing: -0.2px;
   color: #fff;
 }
 
+.footer-ul2 .center{
+  padding: 8px 0;
+}
+
+.footer-ul3 .center{
+  padding: 8px 0;
+}
+
+.footer-ul3{
+  margin: 0;
+  padding: 0;
+}
 
 .footer-li3{
   padding-bottom: 8px;
@@ -310,6 +355,8 @@ li{
 }
 
 
-
+.footer li{
+  padding: 0;
+}
 
 
