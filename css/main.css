@@ -73,12 +73,16 @@ a{
   border-radius: 22px;
   background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
   padding: 8px 35px;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #fff
 }
+.primary-btn:hover{
+  background-color: #30C88F;
+  opacity: 0.4;
+}
+
 
 .btn{
   padding: 15px 36px;
@@ -130,6 +134,10 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   content: "";
+}
+
+.invite{
+  padding: 13px 35px;
 }
 
 .section2{
@@ -278,15 +286,19 @@ li{
   color:#30C88F;
 }
 
-.footer3 .primary-btn{
-  margin-left: 33%;
+.footer3-link{
+  padding-left: 50%;
 }
+
 
 .span{
   display: block;
   padding-top: 24px;
 }
 
+.btn{
+  margin-left: 80px;
+}
 
 .footer3 .span{
   font-size: 15px;
