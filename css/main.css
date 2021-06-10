@@ -151,13 +151,6 @@ a{
   padding-bottom: 16px;
   z-index: -10;
 }
-.section2-inner h2{
-  font-weight: 100;
-  font-size: 40px;
-  line-height: 64px;
-  letter-spacing: -0.714286px;
-  color: #2D314D;
-}
 
 .section2-inner{
   padding-bottom: 72px;
@@ -167,13 +160,14 @@ a{
   padding-bottom: 90px;
 }
 
-.section2 h2{
+.section2-inner h2{
   font-weight: 100;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: -0.4px;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
   color: #2D314D;
 }
+
 
 .section2 p{
   font-size: 16px;
@@ -189,6 +183,7 @@ a{
   padding: 0;
 }
 
+
 .section3{
   background-color: #F2F2F2;
 }
@@ -198,8 +193,9 @@ a{
   font-weight: 100;
   font-size: 40px;
   line-height: 64px;
-  letter-spacing: -0.7px;
+  letter-spacing: -0.714286px;
   color: #2D314D;
+
 }
 
 .section3-picture{
